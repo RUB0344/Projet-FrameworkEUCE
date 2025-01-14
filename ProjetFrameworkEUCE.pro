@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Controller/ImportCSVController.cpp \
     Controller/testController.cpp \
     Model/testModel.cpp \
     View/testView.cpp \
@@ -16,9 +17,11 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    Controller/ImportCSVController.h \
     Controller/testController.h \
     Model/testModel.h \
     View/testView.h \
+    main.h \
     mainwindow.h
 
 FORMS += \
