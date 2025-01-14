@@ -2,7 +2,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-CONFIG += c++17
+CONFIG += c++17 moc
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -11,14 +11,16 @@ CONFIG += c++17
 SOURCES += \
     Controller/testController.cpp \
     Model/testModel.cpp \
-    View/testView.cpp \
+    View/viewHome.cpp \
+    View/viewMainCSV.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     Controller/testController.h \
     Model/testModel.h \
-    View/testView.h \
+    View/viewHome.h \
+    View/viewMainCSV.h \
     mainwindow.h
 
 FORMS += \
